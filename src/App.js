@@ -1,9 +1,10 @@
 import './App.css';
+import AboutUs from './Container/AboutUs/AboutUs';
 
 function App() {
   return (
     <div className="app">
-      <h1>Yo</h1>
+      <AboutUs/>
     </div>
   );
 }
