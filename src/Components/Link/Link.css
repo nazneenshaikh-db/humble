@@ -1,0 +1,12 @@
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #A3A3A3;
+    font-weight: 700;
+font-family: 'RocknRoll One',
+sans-serif;
+}
+
+a:hover {
+    color:darkslategray;
+}
