@@ -18,14 +18,14 @@ function Footer() {
                     </p>
             </div>
             <div className="Team">
-                <h1>Our Team</h1>
+                <h1 className="our-team">Our Team</h1>
                     <Team name="Ved" />
                     <Team name="Vibhor" />
                     <Team name="Sarthak" />
 
             </div>
             <div className="Links">
-                    <h1>Links</h1>
+                    <h1 className="Linkclass">Links</h1>
                     <Link name="Home" />
                     <Link name="Features" />
                     <Link name="How it Works" />
