@@ -1,4 +1,6 @@
-.app {
+*{
   margin: 0;
-  font-family: Lato;
+  box-sizing: border-box;
+  padding: 0;
 }
+
