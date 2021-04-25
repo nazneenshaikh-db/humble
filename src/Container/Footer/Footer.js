@@ -1,45 +1,61 @@
 import './Footer.css';
-import Link from '../../Components/Link/Link';
-import Social from '../../Components/Social/Social';
-import Team from '../../Components/Team/Team';
+// import Link from '../../Components/Link/Link';
+// import Social from '../../Components/Social/Social';
+// import Team from '../../Components/Team/Team';
+import HumbleLogo from '../../assets/Humble-logo.png'
+import ContactUs from '../HomePage/ContactUs/ContactUs'
 
 
 function Footer() {
   
   return (
-    <div className="App">
-        <div className="upper">
-            <div className="about_us">
-                    <h1 className="about-us">
-                    About Us
-                    </h1>
-                    <p className="about-us-info">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur minus porro nam molestias accusamus laudantium non veniam, quibusdam error! Molestiae.
-                    </p>
-            </div>
-            <div className="Team">
-                <h1 className="our-team">Our Team</h1>
-                    <Team name="Ved" />
-                    <Team name="Vibhor" />
-                    <Team name="Sarthak" />
-
-            </div>
-            <div className="Links">
-                    <h1 className="Linkclass">Links</h1>
-                    <Link name="Home" />
-                    <Link name="Features" />
-                    <Link name="How it Works" />
-                    <Link name="Our Clients" />
-            </div>
-        </div>
-        <div className="lower">
-
-            <div className="social-icons">
-                <Social />
-            </div>
-        </div>
-    
-    </div>
+    <footer class="footer">
+  	 <div class="footer__container">
+  	 	<div class="footer__row">
+           <div class="footer__col">
+  	 			<img src={HumbleLogo} className='footer__logo' alt='Humble' />
+  	 		</div>
+  	 		<div class="footer__col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="/">Home</a></li>
+                    <li><a href="/aboutus">About Us</a></li>
+  	 				<li><a href="/services">Our Services</a></li>
+  	 				<li><a href='/contactus'>Contact Us</a></li>
+					<li><a href='/team'>Team</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		{/* <div class="footer__col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div> */}
+  	 		{/* <div class="footer__col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">watch</a></li>
+  	 				<li><a href="#">bag</a></li>
+  	 				<li><a href="#">shoes</a></li>
+  	 				<li><a href="#">dress</a></li>
+  	 			</ul>
+  	 		</div> */}
+  	 		<div class="footer__col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
 
   );
 }
