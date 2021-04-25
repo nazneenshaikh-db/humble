@@ -9,7 +9,7 @@ function Text() {
         <h1>Our Services are Our Superpower</h1>
       </div>
       <div className="service__text__para">
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+        <p>At Humble, we have made sure to curate our services in such a way that ensures maintenance of the full circle of physical as well as mental health. Our products and services are going to be made and curated by a top notch team of psychologists and psychiatrists.</p>
         <div className="service__text__button">
           <Button title="Know More" />
           </div>
