@@ -2,7 +2,7 @@ button {
     background-color: white;
     border: 0;
     padding: 12px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 1.3rem;
     cursor: pointer;
     font-weight: bold;
@@ -14,7 +14,7 @@ button {
         background-color: white;
         border: 0;
         padding: 15px 25px;
-        border-radius: 10px;
+        border-radius: 5px;
         font-size: 1.3rem;
         cursor: pointer;
         font-weight: bold;
