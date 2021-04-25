@@ -1,5 +1,5 @@
 .contactUs {
-    padding: 20px 20px;
+    padding: 20px 40px;
     margin: 2rem 0;
 }
 
@@ -9,7 +9,7 @@
     
 }
 
-.contactUs__left > h1, p {
+.contactUs__left > h1 p {
     color: rgb(94, 94, 94);
     padding-bottom: 25px;
 }
@@ -34,19 +34,19 @@
     border-radius: 20px;
 } 
 
-.contactUs__right > input {
+.contactUs__right > form > input {
     width: 100%;
     padding: 15px 20px;
     border-radius: 10px;
     border: 0;
 }
 
-.contactUs__right > h4 {
+.contactUs__right > form > h4 {
     padding: 15px 0;
     color: White;
 }
 
-.contactUs__right > textarea {
+.contactUs__right > form > textarea {
     width: 100%;
     padding: 15px 20px;
     border-radius: 10px;
@@ -54,25 +54,31 @@
     height: 200px;
 }
 
-.contactUs__right > input:focus {
+.contactUs__right > form > input:focus {
     color: #13524a;
     outline: 2px solid whitesmoke; 
     /* border-radius: 5px; */
 }
 
-.contactUs__button {
-    text-align: center;
-    padding-top: 20px;
+.contactUs__right > .form > button {
+    font-family: 'Lato';
+    padding: 8px 25Spx;
+    border: none;
+    background-color: white;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 3px;
+    color: #13524a;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-top: 10px;
 }
+  
 
 
 @media screen and (min-width: 960px){
-
-}
-
-@media screen and (min-width: 1200px){
     .contactUs {
-        max-width: 1200px;
+        max-width: 900px;
         margin: 4rem auto;
         display: flex;
         padding: 20px 20px;
@@ -109,4 +115,12 @@
         width: 50%;
         margin-left: 25px;
     }
+}
+
+@media screen and (min-width: 1200px){
+    .contactUs {
+        max-width: 1200px;
+        margin: 4rem auto;
+    }
+
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 import './Banner.css'
-import banner from '../../assets/HumbleBanner.png'
-import Button from '../../Components/Button/Button'
-import facebook from '../../assets/facebook.png'
-import instagram from '../../assets/instagram.png'
-import linkedin from '../../assets/linkedin.png'
-import twitter from '../../assets/twitter.png'
+import banner from '../../../assets/HumbleBanner.png'
+import Button from '../../../Components/Button/Button'
+import facebook from '../../../assets/facebook.png'
+import instagram from '../../../assets/instagram.png'
+import linkedin from '../../../assets/linkedin.png'
+import twitter from '../../../assets/twitter.png'
 
 
 function Banner() {
